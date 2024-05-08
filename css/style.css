@@ -5,34 +5,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    margin: 0px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-main{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-h1{
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    color: #fff;
     text-align: center;
-}
-.navBar ul{
-    list-style-type: none;
-    background-color: darkgrey;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navBar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-.navBar a:hover{
-    background-color: hsl(0, 0%, 8%);
-}
-.navBar li{
-    float: left;
+    line-height: 200px;
+    margin: 10px;
 }
